@@ -1,0 +1,16 @@
+name: lint-workflows
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+    paths:
+      - '.github/workflows/*.yaml'
+
+jobs:
+  lint-workflows:
+    uses: clickdealer/github-actions/.github/workflows/lint-workflows.yaml@v1
+    secrets: inherit

@@ -1,0 +1,14 @@
+name: commitlint
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+jobs:
+  commitlint:
+    uses: clickdealer/github-actions/.github/workflows/commitlint.yaml@v1
+    secrets: inherit

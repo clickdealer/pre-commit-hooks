@@ -1,0 +1,6 @@
+- id: kustomize-validate
+  name: checks that kustomize can build successfully
+  description: validates that broken kustomize files won't be committed
+  entry: hooks/kustomize-validate.sh
+  language: script
+  files: kustomization\.yaml$
