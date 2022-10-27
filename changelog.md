@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2](https://github.com/clickdealer/pre-commit-hooks/compare/v1.0.1...v1.0.2) (2022-10-27)
+
+
+### Bug Fixes
+
+* **kustomize-validate:** fix hook name ([57f5dd9](https://github.com/clickdealer/pre-commit-hooks/commit/57f5dd997693c308458cb3ce2ce9b745613aee65))
+
 ## [1.0.1](https://github.com/clickdealer/pre-commit-hooks/compare/v1.0.0...v1.0.1) (2022-10-27)
 
 
