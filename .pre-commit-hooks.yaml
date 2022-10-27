@@ -1,5 +1,5 @@
 - id: kustomize-validate
-  name: checks that kustomize can build successfully
+  name: check that kustomize can build successfully
   description: validates that broken kustomize files won't be committed
   entry: hooks/kustomize-validate.sh
   language: script
