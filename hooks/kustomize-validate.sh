@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-kustomize build "$(dirname "${1}")"
+for file in "$@"; do
+  kustomize build "$(dirname "${file}")"
+done
